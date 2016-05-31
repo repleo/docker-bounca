@@ -20,9 +20,9 @@ This repository contains **Dockerfile** of [BounCA](https://bounca.org/) for [Do
 
 ### Usage
 
-    see [Bounca - get-started](https://www.bounca.org/getting-started.html)
-    
-    You need to launch BounCA via docker-composer
+see [Bounca - get-started](https://www.bounca.org/getting-started.html)
+   
+You need to launch BounCA via docker-composer
 
 ### Author Information
 
