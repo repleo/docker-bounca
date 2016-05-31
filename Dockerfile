@@ -19,8 +19,8 @@ RUN easy_install-3.4 pip
 
 WORKDIR $BOUNCA_SRVHOME
 RUN mkdir media static logs
-RUN git clone https://github.com/repleo/bounca.git $BOUNCA_SRVPROJ
-RUN git checkout tags/v0.1.0
+RUN git clone --branch v0.1.0 https://github.com/repleo/bounca.git $BOUNCA_SRVPROJ
+
 
 # Install Python dependencies
 RUN pip3.4 install -r $BOUNCA_SRVPROJ/requirements.txt
